@@ -1,0 +1,38 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#521C11",
+        "titleBar.activeBackground": "#732717",
+        "titleBar.activeForeground": "#FDF9F8"
+    },
+    // "vim.useCtrlKeys": false,
+    "vim.handleKeys": {
+        // "<C-f>": false,
+        // "<C-u>": false,
+        "<C-d>": false, // use VSC find highlighted duplicates more than Vim page-down
+        "<C-c>": false, // use VSC copy more than Vim copy
+        "<C-v>": false, // use VSC paste more than Vim paste
+        "<C-[>": false, // use VSC indent more than Vim indent
+        "<C-]>": false, // use VSC indent more than Vim indent
+        "<C-a>": false // use VSC indent more than Vim indent
+        // "<C-r>": false,
+    },
+    "vim.foldfix": true,
+    "vim.easymotion": true,
+    // f for vimium find
+    "vim.normalModeKeyBindingsNonRecursive": [{
+            // space: create shortcut to first letter of very word
+            "before": [" "],
+            "after": ["leader", "leader", "leader", "b", "d", "w"]
+        },
+        {
+            "before": ["capslock"],
+            "after": ["<esc>"]
+        }
+        // Q: start of word backwords
+        // {
+        //     "before": ["Q"],
+        //     "after": ["leader", "leader", "b"]
+        // }
+    ],
+    "vim.easymotionKeys": "hklyuipnm,qwetzxcvbasdgjf"
+}
