@@ -52,31 +52,57 @@
   },
   // "vim.useCtrlKeys": false,
   "vim.handleKeys": {
-    // "<C-f>": false,
-    // "<C-u>": false,
-    "<C-d>": false, // use VSC find highlighted duplicates more than Vim page-down
+    // "<C-u>": false, // Vim page up half-screen
+    // "<C-b>": false, // Vim page up full-screen
+    "<C-f>": false, // use VSC find more than Vim page down full-screen
+    "<C-d>": false, // use VSC search highlighted duplicates more than Vim page-down half-screen
     "<C-c>": false, // use VSC copy more than Vim copy
-    "<C-v>": false, // use VSC paste more than Vim paste
-    "<C-[>": false, // use VSC indent more than Vim indent
+    "<C-v>": false, // use VSC paste more than Vim visual block mode
+    "<C-[>": false, // use VSC indent more than Vim Esc(Use CapsLock w/AutoHotKey key swap of Esc)
     "<C-]>": false, // use VSC indent more than Vim indent
     "<C-a>": false // use VSC indent more than Vim indent
-    // "<C-r>": false,
+    // "<C-r>": false, // Vim redo
   },
   "vim.foldfix": true,
   "vim.easymotion": true,
   // f for vimium find
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      // space: create shortcut to first letter of very word
+  "vim.insertModeKeyBindings": [{
+    "before": ["j", "j"],
+    "after": ["<Esc>"]
+  }],
+  "vim.normalModeKeyBindingsNonRecursive": [{
+      // space: create shortcut to jump to first letter of very word
       "before": [" "],
       "after": ["leader", "leader", "leader", "b", "d", "w"]
-    }
-    // Q: start of word backwords
+    },
+    // Q: start of word backwords(note: interferes with shortcut to jump to first letter)
     // {
-    //     "before": ["Q"],
-    //     "after": ["leader", "leader", "b"]
-    // }
+    //   "before": ["Q"],
+    //   "after": ["leader", "leader", "b"]
+    // },
+    // Bind ZZ to the Vim command :wq (save and close the current file)
+    {
+      "before": ["Z", "Z"],
+      "commands": [":wq"]
+    },
+    // prevent infinite gj recursion
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    }
   ],
+<<<<<<< HEAD
   "vim.easymotionKeys": "hklyuipnm,qwetzxcvbasdgjf"
 }
 >>>>>>> Edit readme
+=======
+  // potentials: "hklyuipnm,qwetzxcvbasdgjf"
+  "vim.easymotionKeys": "asdfzxcv", // favorite search keys
+  "vim.easymotionMarkerBackgroundColor": "#000000",
+  "vim.easymotionMarkerForegroundColorOneChar": "#ffffff",
+  "vim.easymotionMarkerForegroundColorTwoChar": "#ffffff",
+  "vim.easymotionMarkerHeight": "14",
+  "vim.easymotionMarkerYOffset": "5",
+  "powermode.enableShake": false
+}
+>>>>>>> Edit vim extension settings.json
