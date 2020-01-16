@@ -8,6 +8,7 @@
     "titleBar.activeBackground": "#732717",
     "titleBar.activeForeground": "#FDF9F8"
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 =======
     "workbench.colorCustomizations": {
@@ -106,3 +107,8 @@
   "powermode.enableShake": false
 }
 >>>>>>> Edit vim extension settings.json
+=======
+  }
+
+}
+>>>>>>> Edit readme
