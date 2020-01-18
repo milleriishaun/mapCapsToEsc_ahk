@@ -8,6 +8,7 @@ _simply run AutoHotkey(AHK) script on Windows Startup to switch keybindings for 
 
 - Escape key in Vim is too far.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Dual Key Remap](https://github.com/ililim/dual-key-remap) does not already solve the problem(ie. when using the Vim emulator extension(vscodevim) on Visual Studio Code).
 - You would like to free up your mechanical keyboard Escape key for something else(ie. a custom keycap).
 
@@ -36,11 +37,14 @@ _simply run AutoHotkey(AHK) script on Windows Startup to switch keybindings for 
 =======
 - Dual Key Remap does not already solve the problem(ie. when using the Vim emulator extension(vscodevim) on Visual Studio Code).
 >>>>>>> Edit readme2
+=======
+- [Dual Key Remap](https://github.com/ililim/dual-key-remap) does not already solve the problem(ie. when using the Vim emulator extension(vscodevim) on Visual Studio Code).
+>>>>>>> Edit readme3
 - You would like to free up your mechanical keyboard Escape key for something else(ie. a custom keycap).
 
 ### Requirements
 
-- AutoHotkey
+- [AutoHotkey](https://github.com/Lexikos/AutoHotkey_L)
 - Windows 10(Home edition or Pro)
 
 ### To run on Windows Startup
