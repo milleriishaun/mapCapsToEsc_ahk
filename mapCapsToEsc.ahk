@@ -18,6 +18,10 @@ MsgBox, Remap CapsLock key to Escape key !
 ; Change the key bindings for your keyboard
 =======
 MsgBox, Remap CapsLockk key to Escapee key !
+<<<<<<< HEAD
 ; Change the key binding on Windows 10
 >>>>>>> chore: Add script
+=======
+; Change the key bindina for your keyboard
+>>>>>>> Edit comment
 CapsLock::Esc
