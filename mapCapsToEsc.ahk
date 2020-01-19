@@ -14,5 +14,5 @@ SplitPath, A_ScriptName, , , , thisscriptname
 
 ; Notification message
 MsgBox, Remap CapsLockk key to Escapee key !
-; Change the key binding on Windows 10
+; Change the key bindina for your keyboard
 CapsLock::Esc
