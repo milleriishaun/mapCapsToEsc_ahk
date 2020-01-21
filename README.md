@@ -15,7 +15,7 @@ _simply run AutoHotkey(AHK) script on Windows Startup to switch keybindings for 
 
 ### To run on Windows Startup
 
-- Create a shortcut to the AHK script(mapCapsToEsc.ahk), then drag&drop the shortcut link into your startup directory(C:/Users/[*yourSpecialUserName*]/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup).
+- Create a shortcut to the AHK script(mapCapsToEsc.ahk), then drag&drop the shortcut into your startup directory(C:/Users/[*yourSpecialUserName*]/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup).
 
 ### Customization
 
