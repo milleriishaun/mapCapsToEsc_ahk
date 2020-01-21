@@ -14,6 +14,7 @@ SplitPath, A_ScriptName, , , , thisscriptname
 
 ; Notification message
 <<<<<<< HEAD
+<<<<<<< HEAD
 MsgBox, Remap CapsLock key to Escape key !
 ; Change the key bindings for your keyboard
 =======
@@ -24,4 +25,8 @@ MsgBox, Remap CapsLockk key to Escapee key !
 =======
 ; Change the key bindina for your keyboard
 >>>>>>> Edit comment
+=======
+MsgBox, Remap CapsLock key to Escape key !
+; Change the key binding for your keyboard
+>>>>>>> Edit message alert
 CapsLock::Esc
