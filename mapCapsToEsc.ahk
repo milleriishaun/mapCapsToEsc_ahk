@@ -13,6 +13,6 @@ SplitPath, A_ScriptName, , , , thisscriptname
 ; SetMouseDelay, -1 ; Remove short delay done automatically after Click and MouseMove/Click/Drag
 
 ; Notification message
-MsgBox, Remap CapsLockk key to Escapee key !
-; Change the key bindina for your keyboard
+MsgBox, Remap CapsLock key to Escape key !
+; Change the key binding for your keyboard
 CapsLock::Esc
