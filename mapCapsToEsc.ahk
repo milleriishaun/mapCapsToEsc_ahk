@@ -1,4 +1,4 @@
-#SingleInstance, Force
+#SingleInstance, Force ;not multithreaded
 #KeyHistory, 0
 SetBatchLines, -1
 ListLines, Off
