@@ -13,25 +13,7 @@ SplitPath, A_ScriptName, , , , thisscriptname ;make a path and name for split
 ; SetMouseDelay, -1 ; Remove short delay done automatically after Click and MouseMove/Click/Drag
 
 ; Notification message
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 MsgBox, Remap CapsLock key to Escape key !
-; Change the key bindings for your keyboard
-=======
-MsgBox, Remap CapsLockk key to Escapee key !
-<<<<<<< HEAD
-; Change the key binding on Windows 10
->>>>>>> chore: Add script
-=======
-; Change the key bindina for your keyboard
->>>>>>> Edit comment
-=======
-MsgBox, Remap CapsLock key to Escape key !
+
 ; Change the key binding for your keyboard
->>>>>>> Edit message alert
-=======
-MsgBox, Remap CapsLock key to Escape key !
-; Change the key binding for your keyboard
->>>>>>> origin/master
 CapsLock::Esc
